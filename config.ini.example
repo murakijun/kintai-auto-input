@@ -1,0 +1,27 @@
+[user]
+# ★ 自分のOutlookメールアドレス（他の人のメールと区別するために使用）
+# 例: sender_email = muraki@example.com
+sender_email = your-email@example.com
+
+[target]
+# 処理対象の年と月
+year  = 2026
+month = 4
+
+[excel]
+# 勤務表Excelファイルのフルパス
+# 空白のままにすると起動時にファイル選択ダイアログが表示されます
+# 例(Windows): path = C:\Users\yourname\Downloads\フレックス版_社員勤務報告書_...xlsx
+path =
+
+[outlook]
+# Outlookフォルダ種別
+# 5 = 送信済みアイテム（通常はこちら）
+# 6 = 受信トレイ
+folder_type = 5
+
+[options]
+# プレビューモード
+# true  = Excelに書き込まず内容を確認するだけ
+# false = 実際にExcelへ書き込む
+preview_only = false

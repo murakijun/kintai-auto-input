@@ -1,0 +1,24 @@
+# 個人設定（メールアドレス・ファイルパスが含まれるため除外）
+config.ini
+
+# Excelファイル（勤務表本体はGitHub管理外）
+*.xlsx
+*.xlsm
+*.xls
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# エディタ
+.vscode/
+.idea/
