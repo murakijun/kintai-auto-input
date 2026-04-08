@@ -32,11 +32,14 @@ if not exist config.ini (
 )
 
 echo.
-echo [3/3] セットアップ完了！
+echo [3/3] config.ini をメモ帳で開きます。sender_email を設定してください...
 echo.
-echo 次のステップ:
-echo   1. config.ini をメモ帳で開いて sender_email を設定する
-echo   2. Outlook を起動する
-echo   3. python 勤務表自動入力.py を実行する
+notepad config.ini
+
+echo ================================================
+echo  セットアップ完了！
+echo ================================================
+echo.
+echo 次回からは「実行.bat」をダブルクリックするだけです。
 echo.
 pause
